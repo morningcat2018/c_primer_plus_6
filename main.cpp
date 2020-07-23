@@ -1,8 +1,9 @@
 
-#include "unit2.h"
-#include "unit3.h"
-#include "unit4.h"
-#include "unit10_class.h"
+#include "unit2_3_4/unit2.h"
+#include "unit2_3_4/unit3.h"
+#include "unit2_3_4/unit4.h"
+#include "unit10_class/unit10_class.h"
+#include "unit5/unit5_1.h"
 
 int main() {
     /**
@@ -31,9 +32,36 @@ int main() {
 //    test_enum_1();
 
     /**
+     * unit5
+     */
+//    test_for_1();
+    test_while_1();
+
+    /**
+     * unit6
+     */
+
+
+    /**
+     * unit7
+     */
+
+    /**
+     * unit8
+     */
+
+
+    /**
+     * unit9
+     */
+
+
+
+
+    /**
      * unit10
      */
-    test_class_1();
+//    test_class_1();
 
     return 0;
 }

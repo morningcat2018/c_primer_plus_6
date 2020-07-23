@@ -47,7 +47,7 @@ void Stock::sell(long num, double price) {
 
 void Stock::update(double price) {
     share_val = price;
-    set_tot();
+    set_tot2();
 }
 
 void Stock::show() {
@@ -71,4 +71,12 @@ void test_class_1() {
 
     sliy.sell(200, 4.43);
     sliy.show();
+
+    sliy.update(5.01);
+    sliy.show();
+
+    sliy.buy(200, 1.83);
+    sliy.show();
+
+    free(&sliy);
 }
