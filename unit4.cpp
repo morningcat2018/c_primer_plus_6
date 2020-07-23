@@ -98,6 +98,9 @@ void test_struct_2() {
     cout << cats[1].desc << endl;
 }
 
+/**
+ * 使用枚举
+ */
 void test_enum_1() {
     Color color1 = RED;
     Color color2 = YELLOW;

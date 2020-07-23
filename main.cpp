@@ -2,6 +2,7 @@
 #include "unit2.h"
 #include "unit3.h"
 #include "unit4.h"
+#include "unit10_class.h"
 
 int main() {
     /**
@@ -27,7 +28,12 @@ int main() {
 //    test_struct_1();
 //    test_struct_2();
 
-    test_enum_1();
+//    test_enum_1();
+
+    /**
+     * unit10
+     */
+    test_class_1();
 
     return 0;
 }
